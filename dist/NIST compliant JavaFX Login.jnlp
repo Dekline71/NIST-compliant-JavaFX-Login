@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="NIST compliant JavaFX Login.jnlp">
+  <information>
+    <title>NIST compliant JavaFX Login</title>
+    <vendor>Jake</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\dsn.jar" size="18478" download="eager" />
+    <jar href="lib\imap.jar" size="178013" download="eager" />
+    <jar href="lib\mail.jar" size="507849" download="eager" />
+    <jar href="lib\mailapi.jar" size="270835" download="eager" />
+    <jar href="lib\pop3.jar" size="43991" download="eager" />
+    <jar href="lib\smtp.jar" size="52787" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="NIST compliant JavaFX Login" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="edu.nist.mail.JavaMail"  name="NIST compliant JavaFX Login" />
+  <update check="always"/>
+</jnlp>
